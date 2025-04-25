@@ -1,19 +1,9 @@
-<?php
-// Data untuk CV
-$name = "Muhammad Zaidan Rafa";
-$profession = "Web Developer";
-$email = "rafabagos75@gmail.com";
-$phone = "081326831712";
-$address = "Ngimbang Pendowoharjo Sewon Bantul";
-$photo = "RAFA28.jpg"; // Pastikan gambar ada di folder yang sama dengan file PHP ini
-?>
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - <?php echo $name; ?></title>
+    <title>CV - Muhammad Zaidan Rafa</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -85,6 +75,10 @@ $photo = "RAFA28.jpg"; // Pastikan gambar ada di folder yang sama dengan file PH
             margin-bottom: 10px;
             border-radius: 4px;
         }
+        .section ul li p {
+            margin-top: 6px;
+            font-size: 14px;
+        }
         .footer {
             text-align: center;
             font-size: 14px;
@@ -97,25 +91,25 @@ $photo = "RAFA28.jpg"; // Pastikan gambar ada di folder yang sama dengan file PH
 
 <div class="container">
     <header class="header-flex">
-        <img src="<?php echo $photo; ?>" alt="Foto Profil" class="photo">
+        <img src="RAFA28.jpg" alt="Foto Profil" class="photo">
         <div class="header-text">
-            <h1><?php echo $name; ?></h1>
-            <p><?php echo $profession; ?></p>
+            <h1>Muhammad Zaidan Rafa</h1>
+            <p>Web Developer</p>
         </div>
     </header>
 
     <div class="info">
         <div>
             <h3>Email</h3>
-            <p><?php echo $email; ?></p>
+            <p>rafabagos75@gmail.com</p>
         </div>
         <div>
             <h3>Telepon</h3>
-            <p><?php echo $phone; ?></p>
+            <p>081326831712</p>
         </div>
         <div>
             <h3>Alamat</h3>
-            <p><?php echo $address; ?></p>
+            <p>Ngimbang Pendowoharjo Sewon Bantul</p>
         </div>
     </div>
 
@@ -123,8 +117,8 @@ $photo = "RAFA28.jpg"; // Pastikan gambar ada di folder yang sama dengan file PH
         <h2>Pengalaman Kerja</h2>
         <ul>
             <li>
-                <strong>Web Developer</strong> - Perusahaan Xuntos (20240 - Sekarang)
-                <p>Spesialis dalam pengembangan perangkat lunak kustom, termasuk billing dan CRM software..</p>
+                <strong>Web Developer</strong> - Perusahaan Xuntos (2024 - Sekarang)
+                <p>Spesialis dalam pengembangan perangkat lunak kustom, termasuk billing dan CRM software.</p>
             </li>
             <li>
                 <strong>Frontend Developer</strong> - Perusahaan Exoft (2034 - 2039)
@@ -147,7 +141,7 @@ $photo = "RAFA28.jpg"; // Pastikan gambar ada di folder yang sama dengan file PH
         <ul>
             <li>SMP 3 SEWON (2022 - 2024)</li>
             <li><strong>RPL</strong> - SMKN 1 SANDEN (2024 - 2027)</li>
-            <li><strong>Computer Science, Mathematics and Business.</strong> - UNIVERSTY OF AMSTERDAM (2028 - 2032)</li>
+            <li><strong>Computer Science, Mathematics and Business.</strong> - UNIVERSITY OF AMSTERDAM (2028 - 2032)</li>
         </ul>
     </div>
 
